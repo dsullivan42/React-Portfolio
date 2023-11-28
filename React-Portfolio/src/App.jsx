@@ -53,6 +53,7 @@ function App() {
       <main>
         {renderTab()}
       </main>
+      <footer></footer>
     </div>
   )
 }
