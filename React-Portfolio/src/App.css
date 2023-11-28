@@ -40,3 +40,41 @@
 .read-the-docs {
   color: #888;
 }
+
+ul {
+  list-style: none;
+}
+
+.profilePicture{
+  width:50%;
+  height:30%;
+
+}
+
+.about-container {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.profilePicture {
+  margin-right:20px;
+}
+
+.about-content {
+  flex:1;
+  font-size:larger;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction:column;
+  }
+  .profilePicture {
+    margin-right:0;
+    margin-bottom:20px;
+  }
+}
+
+.App-header-left-links {
+  font-size: larger;
+}
